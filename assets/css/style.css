@@ -232,7 +232,13 @@ h6 {
   background: url("../img/ozodbekee.jpg");
   background-size:cover;
   background-position-y: -120px;
-  background-position-x:90px;
+  
+}
+@media (max-width: 800px) {
+  #hero{
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }
 
 #hero:before {
